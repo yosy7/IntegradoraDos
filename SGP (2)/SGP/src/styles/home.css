@@ -1,0 +1,282 @@
+.home-wrapper {
+  padding: 12px;
+}
+
+.home-panel {
+  background-color: #f3f3f3;
+  border-radius: 16px;
+  padding: 28px 24px 32px;
+  min-height: calc(100vh - 110px);
+}
+
+.home-title-box {
+  margin-bottom: 24px;
+}
+
+.home-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #23445c;
+  margin: 0;
+}
+
+.summary-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  min-height: 95px;
+}
+
+.summary-card-projects {
+  background: #f8f2ee;
+}
+
+.summary-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.summary-icon-box {
+  width: 58px;
+  height: 58px;
+  background: #dce7e8;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-icon {
+  font-size: 2rem;
+  color: #5d8996;
+}
+
+.summary-icon-box-projects {
+  background: #f3dcc6;
+}
+
+.summary-icon-projects {
+  font-size: 2rem;
+  color: #dc8c45;
+}
+
+.summary-label {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.summary-number {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #244863;
+  line-height: 1;
+}
+
+.summary-number-projects {
+  color: #ea7649;
+}
+
+.projects-header {
+  margin-bottom: 24px;
+}
+
+.projects-title {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #23445c;
+  margin: 0;
+}
+
+.projects-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.search-box {
+  width: 100%;
+  max-width: 590px;
+  height: 50px;
+  background: #f7f7f7;
+  border: 1px solid #d7d7d7;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.search-icon {
+  width: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #244863;
+  font-size: 1.3rem;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  padding-right: 16px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.search-input::placeholder {
+  color: #8f8f8f;
+}
+
+.status-buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.status-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+}
+
+.risk-btn {
+  background: #f7deb0;
+  color: #ed7d4f;
+}
+
+.stable-btn {
+  background: #1e7e74;
+  color: white;
+}
+
+.project-card {
+  background: white;
+  border-radius: 14px;
+  padding: 18px 18px 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  min-height: 190px;
+}
+
+.project-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.project-icon-box {
+  width: 58px;
+  height: 58px;
+  border-radius: 12px;
+  background: #dce7e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.project-icon {
+  font-size: 2rem;
+  color: #5d8996;
+}
+
+.project-info {
+  flex: 1;
+}
+
+.project-name {
+  margin: 0;
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #1f1f1f;
+}
+
+.project-team {
+  margin: 2px 0 0;
+  color: #8c8c8c;
+  font-size: 1rem;
+}
+
+.project-divider {
+  margin: 16px 0 12px;
+  border: none;
+  border-top: 1px solid #d7d7d7;
+}
+
+.project-budget-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.project-budget-label {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.project-budget-value {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.custom-progress {
+  height: 14px;
+  border-radius: 10px;
+  background-color: #d9e0e2;
+  overflow: hidden;
+}
+
+.custom-progress-bar {
+  background-color: #2a9a98;
+  border-radius: 10px;
+}
+
+.project-progress-text {
+  text-align: right;
+  font-size: 0.9rem;
+  color: #8d8d8d;
+  margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+  .home-title,
+  .projects-title {
+    font-size: 1.7rem;
+  }
+
+  .summary-label {
+    font-size: 1.15rem;
+  }
+
+  .summary-number {
+    font-size: 2.2rem;
+  }
+
+  .projects-toolbar {
+    align-items: stretch;
+  }
+
+  .status-buttons {
+    width: 100%;
+  }
+
+  .status-btn {
+    flex: 1;
+    justify-content: center;
+  }
+}
